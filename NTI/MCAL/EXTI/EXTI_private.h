@@ -5,9 +5,13 @@
 /************************************************/
 
 
-#ifndef     KEYPAD_PRIVATE_H
-#define 	KEYPAD_PRIVATE_H
+#ifndef  EXTI_PRIVATE_H
+#define  EXTI_PRIVATE_H
 
 
+#define MCUCR    *((volatile u8 *)0x55)
+#define GICR     *((volatile u8 *)0x5B)
+#define SREG     *((volatile u8 *)0x5F)
+#define GIFR     *((volatile u8 *)0x5A)
 
 #endif

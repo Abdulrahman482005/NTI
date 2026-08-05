@@ -1,7 +1,7 @@
     /************************************************/
    /********* Author: Abdulrahman Mohamed **********/
   /********* Date  : 28/07/2026   *****************/
- /********* File: Private File  ******************/
+ /********* File: Program File  ******************/
 /************************************************/
 
 
@@ -94,7 +94,7 @@ void DIO_voidSetpinValue(u8 PortID,u8 PinID, u8 Value)
 
 u8 DIO_u8GetPinValue(u8 PortID, u8 PinID)
 {
-	u8 x = 0;    // x is the get_bit 
+    	u8 x = 0;    // x is the get_bit 
 	if(PortID < 4 && PinID < 8)
 	{
 		switch(PortID)
@@ -118,10 +118,10 @@ void DIO_voidTogglePin(u8 PortID, u8 PinID)
 	{
 		switch(PortID)
 	    {
-			case PORTa:  TOG_BIT(PORTA, PinID); break;
-			case PORTb:  TOG_BIT(PORTB, PinID); break;
-			case PORTc:  TOG_BIT(PORTC, PinID); break;
-			case PORTd:  TOG_BIT(PORTD, PinID); break;
+			case PORTa: TOG_BIT(PORTA, PinID); break;
+			case PORTb: TOG_BIT(PORTB, PinID); break;
+			case PORTc: TOG_BIT(PORTC, PinID); break;
+			case PORTd: TOG_BIT(PORTD, PinID); break;
 		}
 	}
 	else

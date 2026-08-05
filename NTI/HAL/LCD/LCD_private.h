@@ -1,12 +1,12 @@
     /************************************************/
    /********* Author: Abdulrahman Mohamed **********/
-  /********* Date  : 28/07/2026   *****************/
+  /********* Date  : 29/07/2026   *****************/
  /********* File: Private File  ******************/
 /************************************************/
 
 
 #ifndef     LCD_PRIVATE_H
-#define 		LCD_PRIVATE_H
+#define     LCD_PRIVATE_H
 
 
 #define LCD_CLEAR			  0x01  	// replace all Character with Ascii 'space'
@@ -20,6 +20,6 @@
 #define LCD_SETCURSOR2nd	  0xC0      //Set Cursor Position to 2nd column
 
 
-static void LCD_voidPutonBus(u8 u8Char);
+static void LCD_voidPutonBus( u8 u8Char );
 
 #endif

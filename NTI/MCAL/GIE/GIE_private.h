@@ -1,13 +1,15 @@
     /************************************************/
    /********* Author: Abdulrahman Mohamed **********/
-  /********* Date  : 30/07/2026   *****************/
+  /********* Date  : 01/08/2026   *****************/
  /********* File: Private File  ******************/
 /************************************************/
 
 
-#ifndef     KEYPAD_PRIVATE_H
-#define 	KEYPAD_PRIVATE_H
+#ifndef  GIE_PRIVATE_H
+#define  GIE_PRIVATE_H
 
+
+#define SREG      *((volatile u8 *)0x5F)
 
 
 #endif

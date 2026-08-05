@@ -1,15 +1,14 @@
     /************************************************/
    /********* Author: Abdulrahman Mohamed **********/
-  /********* Date  : 30/07/2026   *****************/
+  /********* Date  : 01/08/2026   *****************/
  /********* File: Interface File  ****************/
 /************************************************/
 
 
-#ifndef     KEYPAD_INT_H
-#define 	KEYPAD_INT_H
+#ifndef  GIE_INT_H
+#define  GIE_INT_H
 
-
-void KEYPAD_voidInitialization(void);
-u8 KEYPAD_pressed_key(void);
+void GIE_voidEnable(void);
+void GIE_voidDisable(void);
 
 #endif

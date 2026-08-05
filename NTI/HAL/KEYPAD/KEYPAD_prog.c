@@ -1,6 +1,6 @@
     /************************************************/
    /********* Author: Abdulrahman Mohamed **********/
-  /********* Date  : 28/07/2026   *****************/
+  /********* Date  : 30/07/2026   *****************/
  /********* File: Program File  ******************/
 /************************************************/
 
@@ -9,7 +9,6 @@
 #include "Std_Types.h"
 #include <util/delay.h>
 #include "DIO_int.h"
-#include "LCD_int.h"
 #include "KEYPAD_config.h"
 #include "KEYPAD_private.h"
 #include "KEYPAD_int.h"
@@ -113,7 +112,7 @@ u8 KEYPAD_pressed_key(void)
 
 	return KEY;
 }
-	
+  
 	
 	
 	

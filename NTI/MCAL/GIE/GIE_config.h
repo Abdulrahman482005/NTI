@@ -1,12 +1,11 @@
     /************************************************/
    /********* Author: Abdulrahman Mohamed **********/
-  /********* Date  : 30/07/2026   *****************/
- /********* File: Private File  ******************/
+  /********* Date  : 01/08/2026   *****************/
+ /********* File: Configration File  *************/
 /************************************************/
 
-
-#ifndef     KEYPAD_PRIVATE_H
-#define 	KEYPAD_PRIVATE_H
+#ifndef  GIE_CONFIG_H
+#define  GIE_CONFIG_H
 
 
 
